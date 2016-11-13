@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.carpc-xtouch" name="X-Touch Helper" version="0.0.6" provider-name="Marc Hillesheim">
+<addon id="plugin.program.carpc-xtouch" name="X-Touch Helper" version="0.0.7" provider-name="Marc Hillesheim">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
