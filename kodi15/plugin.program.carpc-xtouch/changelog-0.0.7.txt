@@ -1,4 +1,7 @@
 
+[B]0.0.7[/B] (2016-11-13)
+- Added some new settings
+
 [B]0.0.6[/B] (2016-10-21)
 - Better interaction with skin (2.1.2 and up)
 
