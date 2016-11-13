@@ -1,0 +1,18 @@
+
+[B]0.0.6[/B] (2016-10-21)
+- Better interaction with skin (2.1.2 and up)
+
+[B]0.0.5[/B] (2016-10-14)
+- Defaultvalues added / failsave on missing time for day / night
+
+[B]0.0.4[/B] (2016-09-15)
+- Service added for autoswitch day/night
+
+[B]0.0.3[/B] (2016-09-14)
+- Disable buttons in other (incompatible) skins
+
+[B]0.0.2[/B] (2016-09-14)
+- Test release
+
+[B]0.0.1[/B] (2016-09-07)
+- First release
