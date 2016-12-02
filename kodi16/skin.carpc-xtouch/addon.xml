@@ -7,7 +7,7 @@
     <res width="1280" height="720" aspect="16:9" folder="16x9" />
   </extension>
   <extension point="xbmc.addon.metadata">
-     <summary lang="en">CarPC xtouch screen skin</summary>
+    <summary lang="en">CarPC xtouch screen skin</summary>
     <description lang="en">The skin is based on re-Touched skin(by Jezz_X), modified by Idorel and reworked by JackTirol. See changelog for a list of all modifications. 
     - </description>
     <disclaimer lang="en">Use this skin with a touch screen or a keyboard (the pointer is not being shown)</disclaimer>
@@ -16,6 +16,6 @@
     <forum></forum>
     <website>http://raspicarprojekt.de/showthread.php?tid=790</website>
     <email></email>
-      <source></source>
+    <source></source>
   </extension>
 </addon>
