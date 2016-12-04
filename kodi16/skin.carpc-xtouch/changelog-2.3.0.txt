@@ -74,10 +74,10 @@ v2.2.0
 v2.2.1
 - Bugfix: Corrected visibility of bottom bar. 
 
-v.2.2.2
+v2.2.2
 - Bugfixes and optimizations.
 
-v.2.3.0
+v2.3.0
 - NEW: Completely changed the way how the main buttons are managed and configured. What does this mean: 
    - Assigning buttons to the menu ist now much more intuitive. 
    - It is also now possible to have a button multiple times on the home screen (for example you can have two, three or even more music buttons with different paths to music sources). 
