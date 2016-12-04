@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
   id="skin.carpc-xtouch"
-  version="2.2.2"
+  version="2.3.0"
   name="CarPC-XTouch"
   provider-name="JackTirol">
   <requires>
@@ -15,7 +15,7 @@
     <res width="1280" height="720" aspect="16:9" folder="16x9" />
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">CarPC xtouch screen skin</summary>
+     <summary lang="en">CarPC xtouch screen skin</summary>
     <description lang="en">The skin is based on re-Touched skin(by Jezz_X), modified by Idorel and reworked by JackTirol. See changelog for a list of all modifications. 
     - </description>
     <disclaimer lang="en">Use this skin with a touch screen or a keyboard (the pointer is not being shown)</disclaimer>

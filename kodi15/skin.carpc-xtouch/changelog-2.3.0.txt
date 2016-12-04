@@ -1,0 +1,91 @@
+Skin.CarPC-xTouch changelog
+
+v1.0: 
+- added analog clock (as an option, replacing logo on home screen). Can be configured in Skin Settings 
+- added shutdown dialog: choose whether to shutdown, reboot or reload skin
+- new font: Roboto (Google Font)
+- most of interface elements can now be controlled by rotary encoders
+- Design: some major and minor changes in order to unify the the look of the skin throughout all windows (not yet completed); new designed icons and buttons
+- Skin completely localized in English and German language
+- new Skin Settings dialogs with some more options to individualize the skin
+- color of interface elements can be altered by changing the color code for 'customcolor' (and 'customcolor2' for focused color) in /colors/defaults.xml
+    
+v1.1: 
+- Fix for slight screen distortion on homescreen on eGalax 7" touchscreen (from Pollin) running at a screenresolution of 1024x600; can be enabled in Skin Settings
+- Visualisation on home screen when playing music (replacing Logo when active). Can be enabled in skin settings.
+- Paths to music- and video-directory can be defined in skin settings
+- Skin colors can now be defined in skin settings. No need to edit colors/default.xml anymore. Enter hex code in AARRGGBB (AA=Transparency: FF=opaque; 00=fully transparent. RRGGBB=color code). 
+- Bold outlines for homebuttons. Change skin theme in Settings/Appearance to Textures-bold.
+- Further small optimizations
+    
+v1.2: 
+Main Changes:
+- You can now freely configure your home screen. Choose which buttons you want to be displayed and which positions they should take. 
+- NEW: The ’Magic Buttons’. These are freely configurable buttons for the home screen. They allow you to call a new function, a window, a plugin, a script, … directly from the home screen. You can choose the position of the button on the home screen, text and icon as well as the action which should be executed when the button is pressed. 
+- Help for the configuration of home screen buttons and Magic Buttons is included in skin settings. 
+- NEW: You can define an individual background for each home button separately. Can be set in skin settings. You need a background image (PNG or JPG, 576x136px – bigger images are also possible and will be scaled to fit into the box).
+
+Other changes:
+- You now have two options for the shutdown button: with dialog (offering shutdown/restart/reload skin) and direct shutdown without dialog.     
+- Background for visualisation on home screen. Can be defined in skin settings. You need a image (PNG or JPG, 400x400px – larger images will be scaled). It’s also possible to use the cover of the actually played album as background. It will be masked to a circular image, edges will be cut.
+- Background for visualisation on fullscreen can also be set in skin settings.
+- Reorganized infobox for current playing music (artist and track title) and radio info (frequency and station name) on the home screen. There is now more space for long artist names and/or long song titles. Also elapsed and remaining time of current playing music track is now displayed in the info box.
+- Of course there are again a lot of changes made to the skin settings. 
+
+v2.0
+- Main menu buttons backgrounds: Besides the picture backgrounds you now can give the main menu buttons a colored background. This button backgrounds can have any color you want, and not only this – you can also make them transparent. You can define color and transparency/opacity (in 10% steps) in skin settings. 
+- Main menu buttons outlines: You can now give the button outlines a color and, if you want, can hide them.
+- Backgrounds for footer and player controls: According to the chosen background it may be reasonable to give the footer elements and (when music is playing) the player controls a background to make them better visible. The backgrounds can be activated and configured independently from each other. You can give them a color of your choice and additionally you can set the level of transparency/opacity of the backgrounds (in 10% steps). 
+- First run assistant: Some users reported missing elements when starting the skin for the first time. This is caused by some missing settings which of course can not be present on a new install. To prevent this there now is an assistant which will open automatically on first run. This assistant will guide you through some basic settings which are important for the skin to run properly. Of course all this settings can be changed afterwards. –– Users of the previous version v1.2 of the skin can skip this settings – just press the ‚Next‘ buttons and the final ‚Finish‘ button. This final step will prevent the assistant from appearing again every time the home screen is loaded. 
+- Skin settings(1): The skin settings are completely reworked. There now is a new menu structure which makes it easier to navigate through the settings.
+- Skin settings(2): There is a new dialog which will make it easier to define the skin’s colors. A color table presents you 135 predefined colors you can choose from. Just press a color field which represents the color you want to assign. Of course you still have the option to enter a hex code if you can’t find the appropriate color in the color table. 
+- Random-/Repeat buttons: along with the setting to show the music and radio infos on the home screen you can now additionally choose the Random/Repeat buttons to show up on the home screen.
+- Some weather infos can be displayed in the upper right corner of the home screen (only useful when the weather addon is active). 
+- Music visualization Fullscreen: When music is playing, you can now switch directly from home screen to fullscreen visualisation by touching the upper left corner of the screen.
+- Some bugfixes and optimizations.
+
+v2.1
+- NEW: Day/Night Mode! Thanks to hawkeyexp there now is a new addon available called 'X-Touch Helper'. It allows you to store two different skin-configurations (for example a bright look for daytime and a dark look for the night). If configured, you can switch manually or automatically (scheduled) between the two looks. Of course this function needs the addon 'X-Touch Helper' to be installed and activated.
+- The skin is now to 99% controllable by keyboard and/or rotary encoders and push buttons. You need keys or encoders/push buttons with the functions left, right, up, down, enter, esc to navigate through the skin.
+- Added Spanish localization (many thanks to redgod for the translation)
+- Home screen: If picture backgrounds for main menu buttons are used, you now can define separate pictures for focused state (optional). 
+- Added button 'OBD' to the available main menu buttons. 
+- In Skin Settings > Media > Music&Video you now can choose between four music sources: directory, music library artists, music library albums, music library genre.
+- Added new submenu buttons: Music Artists, Music Albums, Music Genres and Switch Day/Night Mode. Can be activated/disabled in skin settings. 
+- Submenu buttons are bigger now and will shrink to a smaller size when player buttons are visible.
+- Some minor cosmetical refinements in the music window.
+- As usual: Some bugfixes and optimizations.
+
+v2.1.1
+- Bugfix: Music and radio infos are no longer hidden in Navit. 
+
+v2.2.0
+- Skin is now ready for Kodi 16 (Jarvis)
+- New: Added Page-up and Page-down buttons to scrollbar to make scrolling through large lists more comfortable.
+- Fix: When skin is installed for the first time and no skin colors are set, the color 'White' is used as default color for interface elements. Many thanks @Harryberlin for pointing me to the right direction.  
+- Addon support:
+   - Several changes to make the handling of WiFi-Connections easier. Requires the addon 'WiFiManager' (thanks to hawkeyexp for this great addon). For more informations see the file README_Addons.md, which is included in this folder. 
+	  - New custom window: 'Connect_WiFi'
+	  - Added submenu button 'Connect WiFi'
+	  - Added scripts for connecting/disconnecting WiFi. 
+   - Added the option to display the output of a temperature sensor in the top left corner. Requires the addon '1-Wire Dashboard' (thanks again to hawkeyexp for another useful addon). For more informations about the addon see the file README_Addons.md, which is included in this folder. 
+   - Added new icons and buttons to Textures.xbt to bring the look of the RadioFM (Nextgen) addon more in line with the look of the skin.
+
+v2.2.1
+- Bugfix: Corrected visibility of bottom bar. 
+
+v.2.2.2
+- Bugfixes and optimizations.
+
+v.2.3.0
+- NEW: Completely changed the way how the main buttons are managed and configured. What does this mean: 
+   - Assigning buttons to the menu ist now much more intuitive. 
+   - It is also now possible to have a button multiple times on the home screen (for example you can have two, three or even more music buttons with different paths to music sources). 
+   - You even can have up to six free configurable Magic Buttons. So the main menu is to 100% self configurable by the user. 
+   - Every main button now can have a custom icon, replacing the standard icon. 
+   - Last but not least this all means a dramatically reduced amount of code needed for the main buttons. 
+- NEW: App switcher. The App Switcher is basically a window which contains all menu/submenu items in one screen. When activated it installs a small button at the bottom right of the screen, with which you can open it.
+- Increased the size of the submenu buttons to make them more touch friendly. You can choose between two sizes: 'big' and 'midsize'. They appear centered at the bottom of the home screen when no music or video is playing and therefore no player controls are visible. When there are player controls, the submenu buttons will shrink to a smaller size. The sub menu buttons can also have a coloured background (with free choosable color and transparency). 
+- Added option to place a logo (max. 500x70px) in the top left corner.
+- Added autostart option for a music playlist automatically starting after system start.
+- As usual: overall code cleaning and different optimizations on the whole skin.
