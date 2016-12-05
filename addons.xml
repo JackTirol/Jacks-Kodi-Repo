@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="repository.jacktirol_kodi15" name="Jack's Repo Kodi15" version="1.0.1" provider-name="JackTirol">
+<addon id="repository.jacktirol_kodi15" name="Jack's Repo Kodi15" version="1.0.0" provider-name="JackTirol">
     <requires>
 	<import addon="xbmc.gui" version="5.9.0"/>
     </requires>
