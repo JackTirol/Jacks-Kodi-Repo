@@ -9,7 +9,7 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">CarPC xtouch screen skin</summary>
-    <description lang="en">The skin is based on re-Touched skin(by Jezz_X), modified by Idorel and reworked by JackTirol. See changelog for a list of all modifications.
+    <description lang="en">The skin is based on re-Touched skin(by Jezz_X), modified by Idorel and reworked by JackTirol. See changelog for a list of all modifications. 
     - </description>
     <disclaimer lang="en">Use this skin with a touch screen or a keyboard (the pointer is not being shown)</disclaimer>
     <platform>all</platform>
