@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<<<<<<< Updated upstream
 <addon id="skin.carpc-xtouch" version="2.3.0" name="CarPC-XTouch" provider-name="JackTirol">
   <requires>
     <import addon="xbmc.gui" version="5.10.0"/>
@@ -19,5 +20,22 @@
     <email></email>
     <source></source>
   </extension>
+=======
+<addon id="repository.jacktirol_kodi16" name="Jack's Repo Kodi16" version="1.0.0" provider-name="JackTirol">
+    <requires>
+	<import addon="xbmc.gui" version="5.10.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository" name="Jack's Repo">
+	<info compressed="true">https://raw.githubusercontent.com/JackTirol/Jacks-Kodi-Repo/master/kodi16/addons.xml</info>
+	<checksum>https://raw.githubusercontent.com/JackTirol/Jacks-Kodi-Repo/master/kodi16/addons.xml.md5</checksum>
+	<datadir zip="true">https://raw.githubusercontent.com/JackTirol/Jacks-Kodi-Repo/master/kodi16/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+	<summary>Addons for Kodi 16</summary>
+	<summary lang="en">Addons for Kodi 16</summary>
+	<description>Jack's Repository</description>
+	<platform>all</platform>
+    </extension>
+>>>>>>> Stashed changes
 </addon>
 </addons>
