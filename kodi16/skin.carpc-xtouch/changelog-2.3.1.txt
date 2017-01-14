@@ -93,4 +93,3 @@ v2.3.0
 v2.3.1
 - Bugfixes
 - Volumebar can now be hidden. 
-- Mousepointer can be enabled in skin settings.
