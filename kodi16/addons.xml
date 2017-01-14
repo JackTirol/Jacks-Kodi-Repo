@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<<<<<<< Updated upstream
-<addon id="skin.carpc-xtouch" version="2.3.0" name="CarPC-XTouch" provider-name="JackTirol">
+<addon id="skin.carpc-xtouch" version="2.3.1" name="CarPC-XTouch" provider-name="JackTirol">
   <requires>
     <import addon="xbmc.gui" version="5.10.0"/>
   </requires>
@@ -10,7 +9,7 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">CarPC xtouch screen skin</summary>
-    <description lang="en">The skin is based on re-Touched skin(by Jezz_X), modified by Idorel and reworked by JackTirol. See changelog for a list of all modifications.
+    <description lang="en">The skin is based on re-Touched skin(by Jezz_X), modified by Idorel and reworked by JackTirol. See changelog for a list of all modifications. 
     - </description>
     <disclaimer lang="en">Use this skin with a touch screen or a keyboard (the pointer is not being shown)</disclaimer>
     <platform>all</platform>
@@ -20,22 +19,22 @@
     <email></email>
     <source></source>
   </extension>
-=======
-<addon id="repository.jacktirol_kodi16" name="Jack's Repo Kodi16" version="1.0.0" provider-name="JackTirol">
+</addon>
+<addon id="plugin.program.carpc-xtouch" name="X-Touch Helper" version="0.0.9" provider-name="Marc Hillesheim">
     <requires>
-	<import addon="xbmc.gui" version="5.10.0"/>
+        <import addon="xbmc.python" version="2.1.0"/>
     </requires>
-    <extension point="xbmc.addon.repository" name="Jack's Repo">
-	<info compressed="true">https://raw.githubusercontent.com/JackTirol/Jacks-Kodi-Repo/master/kodi16/addons.xml</info>
-	<checksum>https://raw.githubusercontent.com/JackTirol/Jacks-Kodi-Repo/master/kodi16/addons.xml.md5</checksum>
-	<datadir zip="true">https://raw.githubusercontent.com/JackTirol/Jacks-Kodi-Repo/master/kodi16/</datadir>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>executable</provides>
     </extension>
+    <extension point="xbmc.service" library="service.py" start="start"/>
     <extension point="xbmc.addon.metadata">
-	<summary>Addons for Kodi 16</summary>
-	<summary lang="en">Addons for Kodi 16</summary>
-	<description>Jack's Repository</description>
-	<platform>all</platform>
+        <platform>all</platform>
+        <summary lang="en">X-Touch Helper plugin</summary>
+        <description lang="en">X-Touch Helper plugin for Jacks X-Touch Skin</description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <forum></forum>
+        <email></email>
     </extension>
->>>>>>> Stashed changes
 </addon>
 </addons>
