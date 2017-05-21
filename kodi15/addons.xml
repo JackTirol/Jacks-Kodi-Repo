@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="skin.carpc-xtouch" version="2.3.1" name="CarPC-XTouch" provider-name="JackTirol">
+<addon id="skin.carpc-xtouch" version="2.4.0" name="CarPC-XTouch" provider-name="JackTirol">
   <requires>
     <import addon="xbmc.gui" version="5.9.0"/>
   </requires>
@@ -20,7 +20,7 @@
     <source></source>
   </extension>
 </addon>
-<addon id="plugin.program.carpc-xtouch" name="X-Touch Helper" version="0.0.9" provider-name="Marc Hillesheim">
+<addon id="plugin.program.carpc-xtouch" name="X-Touch Helper" version="0.1.1" provider-name="Marc Hillesheim">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
