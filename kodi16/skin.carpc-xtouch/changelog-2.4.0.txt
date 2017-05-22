@@ -117,3 +117,7 @@ v2.4
 - Bugfixes and some minor optimizations.
 
 - NOTE: If you use the x-Touch Helper addon, make sure that you have installed the newest version (0.1.1 or newer). Otherwise not all settings will be captured. 
+
+v2.4.1
+- Bugfix: Added missing setting for show/hide volume bar.
+
