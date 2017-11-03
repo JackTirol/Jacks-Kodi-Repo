@@ -1,6 +1,3 @@
-4.0.0
-- [Beta] Make skin ready for Kodi 18 'Leia'.
-
 3.0.2
 - Added option to show list of recently played items (music albums and movies) on home screen. 
 - Re-worked info area that shows infos about actually playing track (when music is playing) or radio station (when radio is active).
