@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="skin.carpc-xtouch" version="2.4.2" name="CarPC-XTouch" provider-name="JackTirol">
+<addon id="skin.carpc-xtouch" version="3.0.2" name="CarPC-XTouch" provider-name="JackTirol">
 	<requires>
 		<import addon="xbmc.gui" version="5.12.0"/>
 	</requires>
@@ -8,8 +8,8 @@
 		<res width="1280" height="720" aspect="16:9" folder="16x9" />
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">CarPC-xtouch skin for Kodi 17</summary>
-	    <description lang="en_GB">The skin is based on re-Touched skin(by Jezz_X), modified by Idorel and reworked by JackTirol. See changelog for a list of all modifications. </description>
+		<summary lang="en_GB">CarPC-xtouch skin for Kodi 17 (Krypton)</summary>
+	    <description lang="en_GB">The skin is based on re-Touched skin (by Jezz_X), modified by Idorel and reworked by JackTirol. See changelog for a list of all modifications. </description>
 		<disclaimer lang="en_GB">Use this skin with a touch screen or a keyboard</disclaimer>
 	    <platform>all</platform>
 	    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
@@ -19,10 +19,19 @@
                        <icon>resources/icon.png</icon>
                        <fanart>resources/fanart.jpg</fanart>
                        <screenshot>resources/screenshot-01.jpg</screenshot>
+                       <screenshot>resources/screenshot-02.jpg</screenshot>
+                       <screenshot>resources/screenshot-03.jpg</screenshot>
+                       <screenshot>resources/screenshot-04.jpg</screenshot>
+                       <screenshot>resources/screenshot-05.jpg</screenshot>
+                       <screenshot>resources/screenshot-06.jpg</screenshot>
+                       <screenshot>resources/screenshot-07.jpg</screenshot>
+                       <screenshot>resources/screenshot-08.jpg</screenshot>
+                       <screenshot>resources/screenshot-09.jpg</screenshot>
+                       <screenshot>resources/screenshot-10.jpg</screenshot>
                </assets>
 	</extension>
 </addon>
-<addon id="plugin.program.carpc-xtouch" name="X-Touch Helper" version="0.1.1" provider-name="Marc Hillesheim">
+<addon id="plugin.program.carpc-xtouch" name="X-Touch Helper" version="0.1.2" provider-name="Marc Hillesheim">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
